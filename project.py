@@ -6,7 +6,7 @@ import warnings
 warnings.filterwarnings('ignore')
 sns.set(style='whitegrid')
 
-
+#
 file_path = r"C:\Users\DELL\OneDrive\Desktop\Crime_Incidents_in_2024.csv"
 df = pd.read_csv(file_path)
 print(df)
